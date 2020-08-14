@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Libre Franklin', sans-serif;
+    
+}
+h1.title{
+    text-align: center;
+    margin: 40px;
+}
+.menu{
+    border-bottom: 6px #d4af37 dotted;
+}
+.column{
+    width: 20%;
+    margin: 0 10px;
+    height: 240px;
+    position: relative;
+    box-shadow: 0px 5px 202px rgba(0, 0, 0, 0.5);
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+.column .image{
+    position: relative;
+    width: 260px;
+    height: 260px;
+ 
+}
+.column .image img{
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+    left: 25px;
+    top: -1rem;
+    border-radius: 5%;
+}
+.column:hover{
+    height: 600px;
+}
+.content{
+    position: relative;
+    top: -15px;
+}
+ p.welcome{
+    font-family: 'Shadows Into Light Two', cursive;
+    margin:  20px 0px;
+    color: #d4af37;
+    font-size: 20px;
+    text-align: center;
+}
+span.foodBrand{
+    border-bottom: 6px #d4af37 dotted;
+}
+.content h2{
+    margin-bottom: 25px;
+    padding: 0px 15px;
+
+}
+p.food{
+    padding: 0px 15px;
+}
+.content p.name{
+    font-family: 'Marck Script', cursive;
+    margin:  15px 0px;
+    font-size: 18px;
+    padding: 0px 15px;
+    color: dimgray;
+} 
+.content{
+   visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+.column:hover .content{
+    visibility: visible;
+    opacity: 1;
+    transition-delay: 0.3s ;
+}
