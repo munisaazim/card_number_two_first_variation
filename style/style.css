@@ -218,3 +218,26 @@ p.food{
         margin-left: 155px;
  } 
 }
+@media(max-width:544px){
+    .column .image img{
+        margin-left: 145px;
+ } 
+}
+@media(max-width:526px){
+    .column .image img{
+        margin-left: 135px;}
+ } 
+ @media(max-width:496px){
+    .column .image img{
+        margin-left: 125px;
+ } 
+}
+ @media(max-width:478px){
+    .column .image img{
+        margin-left: 115px;
+}
+}
+@media(max-width:466px){
+    .column .image img{
+        margin-left: 115px;}
+ } 
