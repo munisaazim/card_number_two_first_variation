@@ -10,7 +10,7 @@
     display: table;
     clear: both;
     overflow: auto;
-    margin: 30px;
+   
 }
 body{
     font-family: 'Libre Franklin', sans-serif;
@@ -25,7 +25,7 @@ h1.title{
 }
 .column{
     width: 21.5%;
-    margin: 0 25px;
+    margin: 0 20px;
     height: 240px;
     position: relative;
     box-shadow: 0px 5px 202px rgba(0, 0, 0, 0.5);
@@ -43,7 +43,7 @@ h1.title{
     max-width: 100%;
     object-fit: cover;
     position: absolute;
-    margin-left: 55px;
+    margin-left: 65px;
     top: -1rem;
     border-radius: 5%;
 }
@@ -93,20 +93,145 @@ p.food{
     margin-bottom: 50px;
 }
 /*Responsiveness*/
-@media(max-width:1488px){
-    .column .image{
-        position: relative;
-        width: 250px;
-        height: 200px;
-     
-    }
+@media(max-width:1439px){
     .column .image img{
-      margin-left: 80px;
-    }
-    .column{
-        width: 29%;
-    }
-    .cardThree:hover ~  .cardFour{
-    margin-top: -160px;
+        margin-left: 55px;
     }
 }
+@media(max-width:1397px){
+    .column .image img{
+        margin-left: 55px;
+    }
+}
+@media(max-width:1267px){
+    .column .image img{
+        margin-left: 40px;
+    }
+}
+@media(max-width:1217px){
+    .column .image img{
+        margin-left: 30px;
+    }
+}
+@media(max-width:1142px){
+    .column{
+        width: 26%;
+    }
+    .column .image img{
+        margin-left: 50px;
+    }
+}
+@media(max-width:1090px){
+    .column .image img{
+        margin-left: 45px;
+    }
+}
+@media(max-width:1059px){
+    .column .image img{
+        margin-left: 41px;
+    }
+}
+
+@media(max-width:1059px){
+    .column .image img{
+        margin-left: 41px;
+    }
+}
+@media(max-width:1018px){
+    .column .image img{
+        margin-left: 35px;
+    }
+}
+@media(max-width:964px){
+    .column .image img{
+        margin-left: 30px;
+    }
+}
+@media(max-width:914px){
+    .column .image img{
+        margin-left: 25px;
+    }
+}
+@media(max-width:881px){
+    .column .image img{
+        margin-left: 20px;
+    }
+}
+@media(max-width:849px){
+    .column .image img{
+        margin-left: 15px;
+    }
+}
+@media(max-width:834px){
+    .column .image img{
+        margin-left: 80px;
+ }
+    .column {
+        width: 43%;
+    }
+}
+@media(max-width:796px){
+    .column .image img{
+        margin-left: 70px;
+ }  
+}
+@media(max-width:746px){
+    .column .image img{
+        margin-left: 60px;
+ }  
+}
+@media(max-width:716px){
+    .column .image img{
+        margin-left: 55px;
+ }  
+}
+@media(max-width:686px){
+    .column .image img{
+        margin-left: 50px;
+ }  
+}
+@media(max-width:662px){
+    .column .image img{
+        margin-left: 48px;
+ }  
+}
+@media(max-width:638px){
+    .column .image img{
+        margin-left: 40px;
+ }  
+}
+@media(max-width:614px){
+    .column .image img{
+        margin-left: 35px;
+ }  
+}
+@media(max-width:594px){
+    .column .image img{
+        margin-left: 30px;
+ }  
+}
+@media(max-width:571px){
+    .column {
+        width: 100%;
+    }
+}
+/*@media(max-width: 1423px){
+    .column .image img{
+        margin-left: 60px;
+      }
+}
+@media(max-width: 1281px){
+    .column .image img{
+        margin-left: 50px;
+      }
+}
+@media(max-width: 1233px){
+    .column .image img{
+        margin-left: 40px;
+      }
+}
+@media(max-width: 1214px){
+    .row, .column{
+        margin: 15px ;
+    }
+}*/
