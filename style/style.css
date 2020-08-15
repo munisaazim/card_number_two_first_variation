@@ -212,6 +212,9 @@ p.food{
 }
 @media(max-width:571px){
     .column {
-        width: 100%;
+        width: 89%;
     }
+    .column .image img{
+        margin-left: 155px;
+ } 
 }
