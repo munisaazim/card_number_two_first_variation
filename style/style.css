@@ -215,23 +215,3 @@ p.food{
         width: 100%;
     }
 }
-/*@media(max-width: 1423px){
-    .column .image img{
-        margin-left: 60px;
-      }
-}
-@media(max-width: 1281px){
-    .column .image img{
-        margin-left: 50px;
-      }
-}
-@media(max-width: 1233px){
-    .column .image img{
-        margin-left: 40px;
-      }
-}
-@media(max-width: 1214px){
-    .row, .column{
-        margin: 15px ;
-    }
-}*/
