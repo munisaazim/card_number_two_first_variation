@@ -260,3 +260,38 @@ p.food{
         margin-left: 75px;
     }
  }
+ @media(max-width:368px){
+    .column .image img{
+        margin-left: 70px;
+    }
+ }
+ @media(max-width:359px){
+    .column .image img{
+        margin-left: 60px;
+    }
+ }
+ @media(max-width:340px){
+    .column .image img{
+        margin-left: 57px;
+    }
+ }
+ @media(max-width:330px){
+    .column .image img{
+        margin-left: 50px;
+    }
+ }
+ @media(max-width:320px){
+    .column .image img{
+        margin-left: 45px;
+    }
+ }
+ @media(max-width:312px){
+    .column .image img{
+        margin-left: 41px;
+    }
+ }
+ @media(max-width:298px){
+    .column .image img{
+        margin-left: 36px;
+    }
+ }
