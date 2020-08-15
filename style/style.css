@@ -89,3 +89,24 @@ p.food{
     opacity: 1;
     transition-delay: 0.3s ;
 }
+.column{
+    margin-bottom: 50px;
+}
+/*Responsiveness*/
+@media(max-width:1488px){
+    .column .image{
+        position: relative;
+        width: 250px;
+        height: 200px;
+     
+    }
+    .column .image img{
+      margin-left: 80px;
+    }
+    .column{
+        width: 29%;
+    }
+    .cardThree:hover ~  .cardFour{
+    margin-top: -160px;
+    }
+}
